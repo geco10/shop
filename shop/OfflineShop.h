@@ -6,6 +6,6 @@ class OfflineShop :public IShop
 {
 	std::string address;
 public:
-	void sell(Product a);
+	void sell(const Product& a);
 };
 
