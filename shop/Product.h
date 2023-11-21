@@ -6,9 +6,10 @@ class Product
 {
 	int cost;
 	string name;
-	virtual void work() = 0;
+	
 public:
-	string getName();
-	int getCost();
+	virtual void work() const= 0;
+	string getName()const;
+	int getCost()const;
 };
 

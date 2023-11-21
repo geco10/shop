@@ -4,6 +4,7 @@ class Sausage :public Product
 {
 	string taste;
 public:
-	void work();
+	void work()const override;
+	Sausage(string t);
 };
 

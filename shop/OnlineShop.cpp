@@ -1,6 +1,8 @@
 #include "OnlineShop.h"
 
-void OnlineShop::sell(const Product& a)
+void OnlineShop::selling(const Product& a)const
 {
-	std::cout << "i am selling" << a.getName() << "in online shop with this url;" << url<<"with this cost:"<<a.getCost();
+	std::cout << "example of work";
+	a.work();
+	std::cout << "i am selling" << a.getName() << "in online shop with this url;" << url << "with this cost:" << a.getCost();
 }

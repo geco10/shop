@@ -6,6 +6,6 @@ class OfflineShop :public IShop
 {
 	std::string address;
 public:
-	void sell(const Product& a);
+	void selling(const Product& a)const override;
 };
 

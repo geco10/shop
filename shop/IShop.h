@@ -4,6 +4,6 @@
 class IShop
 {
 public:
-	virtual void sell(Product a) = 0;
+	virtual void selling(const Product& a) const= 0;
 };
 

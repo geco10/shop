@@ -4,6 +4,7 @@ class Calculator :public Product
 {
 	float speed;
 public:
-	void work();
+	Calculator(float f);
+	void work()const override;
 };
 

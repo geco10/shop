@@ -44,9 +44,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Shop.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="SellCenter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
