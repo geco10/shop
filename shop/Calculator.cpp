@@ -2,8 +2,10 @@
 
 void Calculator::work()const 
 {
-	std::cout << "i am calculating with this speed" << speed;
+	std::cout << "    i am calculating with this speed   " << speed;
 }
-Calculator::Calculator(float f){
-	speed = f;
+Calculator::Calculator(float s,const std::string& name,float cost){
+	speed = s;
+	this->name = name;
+	this->cost = cost;
 }

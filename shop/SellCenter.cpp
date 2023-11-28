@@ -10,3 +10,6 @@ void SellCenter::selling(const Product& a) const
 void SellCenter::addOfflineShop(std::string address) {
 	data.push_back(new OfflineShop(address));
 }
+void SellCenter::addOnlineShop(std::string url) {
+	data.push_back(new OnlineShop(url));
+}

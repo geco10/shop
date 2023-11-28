@@ -4,8 +4,9 @@ string Product::getName()const
 {
 	return name;
 }
+Product::Product(const std::string& name, float cost){}
 
-int Product::getCost()const
+float Product::getCost()const
 {
 	return cost;
 }

@@ -6,6 +6,7 @@ class OnlineShop:public IShop
 {
 	std::string url;
 public:
+	OnlineShop(std::string url);
 	void selling(const Product& a)const override;
 };
 

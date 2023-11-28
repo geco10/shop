@@ -7,8 +7,11 @@
 #include"SellCenter.h"
 int main()
 {
+
 	SellCenter sell;
-    sell.selling(Calculator(3.7));
+	sell.addOnlineShop("3871");
+	sell.addOfflineShop("maybrook.st 3124");
+    sell.selling(Mp3(3,"mp3 hp41",10.10));
 }
 
 

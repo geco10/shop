@@ -4,12 +4,14 @@
 using std::string;
 class Product
 {
-	int cost;
+protected:
+	float cost;
 	string name;
 	
 public:
+	Product(const std::string& name, float cost);
 	virtual void work() const= 0;
 	string getName()const;
-	int getCost()const;
+	float getCost()const;
 };
 
