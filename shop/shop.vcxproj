@@ -136,6 +136,7 @@
     <ClCompile Include="Sausage.cpp" />
     <ClCompile Include="SellCenter.cpp" />
     <ClCompile Include="shop.cpp" />
+    <ClCompile Include="SmartPhone.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calculator.h" />
@@ -146,6 +147,7 @@
     <ClInclude Include="Product.h" />
     <ClInclude Include="Sausage.h" />
     <ClInclude Include="SellCenter.h" />
+    <ClInclude Include="SmartPhone.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,6 +1,6 @@
 #pragma once
 #include"Product.h"
-class Calculator :public Product
+class Calculator :public virtual Product
 {
 	float speed;
 public:

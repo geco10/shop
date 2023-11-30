@@ -1,6 +1,6 @@
 #pragma once
 #include"Product.h"
-class Mp3:public Product
+class Mp3:public virtual Product
 {
 	int quality;
 public:
